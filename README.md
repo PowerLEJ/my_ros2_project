@@ -54,6 +54,11 @@ LED + : 7번 (메모용 : 파란색 선으로 연결함)
 LED - : 저항 (330옴 갈주주)  
 저항 : GND와 연결  
 
+![001](/images/001.jpg){: width="50%" height="50%"}{: .center}  
+![002](/images/002.jpg){: width="50%" height="50%"}{: .center}  
+![003](/images/003.jpg){: width="50%" height="50%"}{: .center}  
+![004](/images/004.jpg){: width="50%" height="50%"}{: .center}  
+
 
 ## 실행  
 
@@ -104,7 +109,7 @@ python3 ~/robot_ws/src/my_project/my_project/main.py
 ros2 launch turtlebot3_bringup robot.launch.py
 ```  
 
-## 내 서버에서  
+### 내 서버에서  
 
 ```
 ros2 launch turtlebot3_cartographer cartographer.launch.py
